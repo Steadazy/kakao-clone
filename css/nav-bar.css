@@ -4,8 +4,8 @@
     padding: 20px 50px;
     left: 0px;
     bottom: 0px;
-    background-color: #fcfcfc;
-    border-top: 1px solid #f7f7f7;
+    background-color: #000000;
+    border-top: 0.5px solid #f7f7f7;
 }
 
 .nav .nav__list {
