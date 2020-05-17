@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/5eaeab860e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css" />
-  <title>Chats | Kakao Clone</title>
+  <title>Friends | Kakao Clone</title>
 </head>
 
 <body>
@@ -24,95 +24,179 @@
   </div>
   <header class="header">
     <div class="header__header-column">
-      <h1 class="header__title">Chats</h1>
+      <h1 class="header__title">친구</h1>
     </div>
     <div class="header__header-column">
       <span class="header__icon"><i class="fas fa-search"></i></span>
-      <span class="header__icon"><i class="far fa-comment"></i></span>
+      <span class="header__icon"><i class="fas fa-user-plus"></i></span>
       <span class="header__icon"><i class="fas fa-cog"></i></span>
     </div>
   </header>
-  <main class="chats">
+  <main class="friends">
+    <header class="friends__header">
+      <div class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/my_avatar.jpg" class="g-avatar friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                이규선
+              </span>
+            </div>
+            <span class="friend__status">
+              Kakao-clone 연습!
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="friends__plus">
+      <div class="friends__title-wrapper">
+        <h5 class="friends__title">생일인 친구</h5>
+        <a href="#none" class="toggle-arrow up"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <div class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/birthday_icon.jpg" class="friend__avatar birthday-icon" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                친구의 생일을 확인해보세요!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friend__column">
+          <span class="friend__count">3</span>
+          <a href="#none" class="toggle-arrow right"><i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="friends__plus">
+      <div class="friends__title-wrapper">
+        <h5 class="friends__title">추천친구</h5>
+        <a href="#none" class="toggle-arrow up"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <div class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/recommended-friend.png" class="friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                새로운 친구를 만나보세요!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friend__column">
+          <span class="friend__count">12</span>
+          <a href="#none" class="toggle-arrow right"><i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="friends__plus">
+      <div class="friends__title-wrapper">
+        <h5 class="friends__title">채널</h5>
+        <a href="#none" class="toggle-arrow up"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <div class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/channel-icon.png" class="friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                채널
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="friend__column">
+          <span class="friend__count">2</span>
+          <a href="#none" class="toggle-arrow right"><i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
     <ul class="friends__list">
-      <li class="friends__friend chat">
-        <a href="chat.html">
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Gyusun Lee
-                </span>
-                <span class="friend__bottom-text">
-                  Hello~
-                </span>
-              </div>
-            </div>
-            <div class="friend__column">
-              <span class="chat__timestamp">
-                5월 10일
+      <div class="friends__title-wrapper">
+        <h5 class="friends__title">친구 229</h5>
+        <a href="#none" class="toggle-arrow up"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <li class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/friend_avatar1.jpg" class="friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                카카오 친구 1
               </span>
             </div>
+            <span class="friend__status">
+              상태 메시지 1
+            </span>
           </div>
-        </a>
+        </div>
+        <div class="friend__column">
+          <div class="friend__now-listening">
+            <span>
+              Coding (feat.Clone) - Kakao
+            </span>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
       </li>
-      <li class="friends__friend chat">
-        <a href="chat.html">
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Clone
-                </span>
-                <span class="friend__bottom-text">
-                  How are you?
-                </span>
-              </div>
-            </div>
-            <div class="friend__column">
-              <span class="chat__timestamp">
-                5월 10일
+      <li class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/friend_avatar2.jpg" class="friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                카카오 친구 2
               </span>
             </div>
+            <span class="friend__status">
+              상태 메시지 2
+            </span>
           </div>
-        </a>
+        </div>
+        <div class="friend__column">
+        </div>
       </li>
-      <li class="friends__friend chat">
-        <a href="chat.html">
-          <div class="friends__friend friend">
-            <div class="friend__column">
-              <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">
-                  Kakao
-                </span>
-                <span class="friend__bottom-text">
-                  Kakao clone
-                </span>
-              </div>
-            </div>
-            <div class="friend__column">
-              <span class="chat__timestamp">
-                5월 10일
+      <li class="friends__friend friend">
+        <div class="friend__column">
+          <img src="images/friend_avatar3.jpg" class="friend__avatar" />
+          <div class="friend__content">
+            <div class="friend__title">
+              <span class="friend__name">
+                카카오 친구 3
               </span>
             </div>
+            <span class="friend__status">
+              상태 메시지 3
+            </span>
           </div>
-        </a>
+        </div>
+        <div class="friend__column">
+          <div class="friend__now-listening">
+            <span>
+              제목 - 가수
+            </span>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
       </li>
     </ul>
   </main>
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__list-item">
-        <a href="friends.html" class="nav__list-link">
-          <i class="far fa-user"></i>
+        <a href="index.html" class="nav__list-link">
+          <i class="fas fa-user"></i>
         </a>
       </li>
       <li class="nav__list-item">
-        <a href="index.html" class="nav__list-link">
+        <a href="chats.html" class="nav__list-link">
           <div class="nav__badge">3</div>
-          <i class="fas fa-comment"></i>
+          <i class="far fa-comment"></i>
         </a>
       </li>
       <li class="nav__list-item">
